@@ -1,0 +1,6 @@
+{
+  "name": "ViREALTY - Inmobiliaria 100% Virtual",
+  "description": "Plataforma inmobiliaria digital con tours virtuales 360°, calculadora de rentabilidad y ROI, visor 3D interactivo y valuador de propiedades.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es" class="scroll-smooth bg-[#0B0F19] text-slate-100">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ViREALTY | Inmobiliaria 100% Virtual</title>
+    <meta name="description" content="Inmobiliaria 100% virtual con tours 360°, visor 3D interactivo, calculadora de ROI y valorización en tiempo real." />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Library para Visor 360 (Pannellum) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+  </head>
+  <body class="bg-[#0B0F19] text-slate-100 font-sans antialiased selection:bg-[#D946EF] selection:text-white">
+    <!-- Librería Oficial de EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          // Reemplaza 'TU_PUBLIC_KEY' por tu clave pública de EmailJS
+          if (typeof emailjs !== 'undefined') {
+             emailjs.init("TU_PUBLIC_KEY");
+          }
+       })();
+    </script>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
